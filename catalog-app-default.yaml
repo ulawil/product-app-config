@@ -1,4 +1,1 @@
-server:
-  port: 8080
-
 test: "ala ma kota"
