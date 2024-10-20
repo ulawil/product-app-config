@@ -38,6 +38,5 @@ resilience4j:
   endpoints:
     web:
       exposure:
-        include:
-          - 'info'
-          - 'health'
+        include: '*'
+          
