@@ -37,9 +37,10 @@ resilience4j:
         recordExceptions:
           - java.net.SocketTimeoutException
 
-  management:
+management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        include:
+          - '*'
           
