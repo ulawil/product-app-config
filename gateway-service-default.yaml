@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: product-app
+          uri: http://localhost:8082
+          predicates:
+            - Path=/products/**
